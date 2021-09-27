@@ -57,3 +57,12 @@ body
             height: 300px;
             width: 350px;
           }
+          h1 {
+            margin:0 auto;
+            text-align:center;
+            color: green;
+          }
+          .container {
+              margin: 0 auto;
+              padding: 0 auto;   
+          }
