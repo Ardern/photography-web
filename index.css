@@ -1,0 +1,55 @@
+<style type=text/css>   
+{
+    box-sizing: border-box
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+.item {
+    margin: 5px;
+}     
+body   
+        {  
+        height: 125vh;  
+        margin-top: 80px;  
+        padding: 30px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+        }  
+        header {  
+        background-color: orange;  
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 5px;  
+        height: 30px;  
+        display: flex;  
+        align-items: center;  
+        box-shadow: 0 0 25px 0 black;  
+        }  
+        header * {  
+        display: inline;  
+        }  
+        header li {  
+        margin: 20px;  
+        }  
+        header li a {  
+        color: blue;  
+        text-decoration: none;  
+        }  
+        </style>
