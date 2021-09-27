@@ -52,4 +52,8 @@ body
         header li a {  
         color: blue;  
         text-decoration: none;  
-        }  
+        }
+        .img {
+            height: 300px;
+            width: 350px;
+          }
