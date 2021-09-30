@@ -33,7 +33,7 @@ body
         font-family: sans-serif;  
         }  
         header {  
-        background-color: orange;  
+        background-color: #33ccff;  
         position: fixed;  
         left: 0;  
         right: 0;  
@@ -41,7 +41,7 @@ body
         height: 30px;  
         display: flex;  
         align-items: center;  
-        box-shadow: 0 0 25px 0 black;  
+        box-shadow: 0 0 25px 0#000033;  
         }  
         header * {  
         display: inline;  
@@ -60,9 +60,17 @@ body
           h1 {
             margin:0 auto;
             text-align:center;
-            color: green;
+            color: #ffcc00;
           }
           .container {
               margin: 0 auto;
               padding: 0 auto;   
           }
+          p {
+              text-align: center;
+              font-size: inherit;
+              font-weight: bold;
+              font-style: italic;
+              color: inherit;
+          }
+          
